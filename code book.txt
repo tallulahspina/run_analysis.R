@@ -89,3 +89,5 @@ The remaining variables where numeric, labeled as follow
 [81] "fBodyBodyGyroJerkMag-std()"   
  
  Obs1. XYZ corresponding to 3 columns each with measurements in axis X, Y and Z, respectively), 2. they corresponded to the average measurement for tha subject and tha activity. 
+ 
+ - Features are normalized and bounded within [-1,1].
