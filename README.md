@@ -62,15 +62,23 @@ This file contains a code to merge and clean measurements of the following exper
           =====================================================================================================
 
 The code named run_analysis:
+
     Starts reading and naming tables in format txt with raw data
-    Reads tables with variable names given by the original researcher (that I honestly couldn´t name better)     
+    
+    Reads tables with variable names given by the original researcher (that I honestly couldn´t name better)  
+    
      1- Merges the training and the test sets to create one data set.
-               First, combine test and train variables
+                First, combine test and train variables
                 Then combine test and train data.frames
-         1.4 I prefered to label the data set with descriptive variable names here
+                
+         1.4 I prefered to label the data set with descriptive variable names first
+         
           2- Extracts only the measurements on the mean and standard deviation for each measurement (each measurement in x, y and z).
+          
           3- Uses descriptive activity names to name the activities in the data set.("walking", "upstairs", "downstairs", "sitting", "standing", "laying")
-          4- Appropriately labels the data set with descriptive variable names (done for everything since ##1.4)
-         5 From the data set in step 4, creates a second, independent tidy data set 
+          
+          4- Appropriately labels the data set with descriptive variable names (done for everything since ##1.4 - I trully could'nt find a better name than its original)
+          
+         5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. (meaning i must find the average of x,y and z for each variable)
          
 
